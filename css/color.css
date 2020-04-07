@@ -1,0 +1,345 @@
+/* ==========================================================================================
+  Theme Name: Musiziya
+  Author: VS_THEMES
+  Description: Musician & Band HTML Template
+  Version: 1.0
+========================================================================================== */
+
+
+/*-------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Color black 
+    2. Color blue
+    3. Bg black
+    4. Bg blue
+    5. Border Blue
+    6. Border black
+
+-------------------------------------------------------*/
+
+
+/* ....................................
+1. Color black 
+.......................................*/
+
+body,
+a,
+a:hover,
+.black,
+.head-icons li .shop-count,
+.btn-rnd:hover span,
+.each-blog:hover .blog-texts .btn-blue-border,
+.scrol-tp,
+.callback-footer-2 .btn-black:hover,
+.btn.btn-border-bl span,
+.btn.btn-border-bl:hover,
+.blog-standared-date,
+.slider-type-blog.owl-carousel .owl-nav button.owl-next,
+.slider-type-blog.owl-carousel .owl-nav button.owl-prev,
+.categories li a span,
+.tags-widget .tag-link:hover,
+.social-profile-box:hover,
+.tags-small a:hover,
+.blog-social li a:hover,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.scrol-tp {
+    color: #221b3c;
+}
+
+
+/* ....................................
+2. Color blue
+.......................................*/
+
+.blue,
+.main-menu-1>div>ul>li.active>a,
+.main-menu-1>div>ul>li>a:hover,
+.s-header li a:hover,
+.btn-shadow,
+.each-evnt-box .evnt-btns .ticket-bt,
+.each-evnt-box .evnt-btns .rsvp:hover,
+.btn-blue-border,
+.each-blog .blog-date h2,
+.footer-contacts .social-icons li a:hover i,
+.btn.btn-border-bl,
+.line-btn-a:hover,
+.social-icons.blog-lists li a:hover i,
+.each-blog-standared:hover .blog-std-texts h2 a,
+.blog-auther-social li a:hover,
+.team-detail .check-list li span {
+    color: #47f0f2;
+}
+
+
+/* ....................................
+3. Bg black
+.......................................*/
+
+.bg-black,
+.btn-black,
+.btn-rnd:hover,
+.btn-shadow,
+.line-heads.center h1:after,
+.line-heads.center h1:before,
+.each-evnt-box .evnt-btns .ticket-bt,
+.each-evnt-box .evnt-btns .rsvp:hover,
+.each-team .team-plus,
+.each-blog,
+.footer-1[data-overlay]:before,
+.mean-container .mean-bar,
+.inner-banner[data-overlay]:before,
+.video-plays[data-overlay]:before,
+.pagination-type1 ul li a:hover,
+.pagination-type1 ul li.active a,
+.block-quote-by:before,
+.contact-form[data-overlay]:before,
+.each-gallery,
+.btn-albm-btn:hover,
+.line-heads.left h1:after {
+    background: #221b3c;
+}
+
+
+/*black bg opacity classes*/
+
+.bg-black-op-9 {
+    background: rgba(34, 27, 60, 0.9);
+}
+
+.bg-black-op-8 {
+    background: rgba(34, 27, 60, 0.8);
+}
+
+.bg-black-op-7 {
+    background: rgba(34, 27, 60, 0.7);
+}
+
+.bg-black-op-6 {
+    background: rgba(34, 27, 60, 0.6);
+}
+
+.bg-black-op-5 {
+    background: rgba(34, 27, 60, 0.5);
+}
+
+.bg-black-op-4 {
+    background: rgba(34, 27, 60, 0.4);
+}
+
+.bg-black-op-3 {
+    background: rgba(34, 27, 60, 0.3);
+}
+
+.bg-black-op-2 {
+    background: rgba(34, 27, 60, 0.2);
+}
+
+.bg-black-op-1 {
+    background: rgba(34, 27, 60, 0.1);
+}
+
+.bg-black-op-0 {
+    background: rgba(34, 27, 60, 0);
+}
+
+
+/* ....................................
+4. Bg blue
+.......................................*/
+
+.bg-blue,
+.head-icons li .shop-count,
+.main-menu-1>div>ul>li.active>a:after,
+.main-menu-1>div>ul>li>a:hover:after,
+.btn-rnd,
+.main-slider .owl-dots .owl-dot.active,
+.btn-rnd:hover span,
+.bg-ty-2,
+.bg-ty-3,
+.each-evnt-box:hover,
+.each-l-videos .vid-l-img,
+.each-team:hover .team-plus:before,
+.btn-blue,
+.each-blog:hover .blog-texts .btn-blue-border,
+.each-testimonial .quote-by:before,
+.scrol-tp,
+.inner-banner-head:after,
+.inner-banner-head:before,
+.btn.btn-border-bl span,
+.dashed-play-btn,
+.btn.btn-border-bl:hover,
+.pagination-type1 ul li a,
+.play-btn,
+.blog-standared-date,
+.right-box-head h4:after,
+.categories li a span,
+.tags-widget .tag-link:hover,
+.social-profile-box:hover,
+.tags-small a:hover,
+.blog-social li a:hover,
+.each-gallery .expand-gallery,
+.experience li:after,
+.experience li:before,
+.each-shop-list .shop-img .btn-shop,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.event-navs.next i,
+.event-navs.prev i,
+.btn-albm-btn,
+.main-menu-1 .submenu {
+    background: #47f0f2;
+}
+
+
+/*blue bg opacity classes*/
+
+.bg-blue-op-9 {
+    background: rgba(71, 240, 242, 0.9);
+}
+
+.bg-blue-op-8 {
+    background: rgba(71, 240, 242, 0.8);
+}
+
+.bg-blue-op-7 {
+    background: rgba(71, 240, 242, 0.7);
+}
+
+.bg-blue-op-6 {
+    background: rgba(71, 240, 242, 0.6);
+}
+
+.bg-blue-op-5 {
+    background: rgba(71, 240, 242, 0.5);
+}
+
+.bg-blue-op-4 {
+    background: rgba(71, 240, 242, 0.4);
+}
+
+.bg-blue-op-3 {
+    background: rgba(71, 240, 242, 0.3);
+}
+
+.bg-blue-op-2 {
+    background: rgba(71, 240, 242, 0.2);
+}
+
+.bg-blue-op-1 {
+    background: rgba(71, 240, 242, 0.1);
+}
+
+
+/*text shadow*/
+
+.line-heads h1,
+.each-evnt-box .date h2,
+.blog-detail-head,
+.error-text h1 {
+    text-shadow: 0 4px 0px #47f0f2;
+}
+
+.inner-banner-head {
+    text-shadow: 0 3px 0px #47f0f2;
+}
+
+
+/*shadow blue*/
+
+.btn-shadow,
+.each-evnt-box .evnt-btns .ticket-bt {
+    box-shadow: 0px 4px #47f0f2;
+}
+
+.blob {
+    box-shadow: 0 0 0 0 rgb(71, 240, 242);
+    animation: pulse-blue 2s infinite;
+}
+
+@keyframes pulse-blue {
+    0% {
+        box-shadow: 0 0 0 0 rgba(71, 240, 242, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 30px rgba(71, 240, 242, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(71, 240, 242, 0);
+    }
+}
+
+@keyframes pulse-blue-small {
+    0% {
+        box-shadow: 0 0 0 0 rgba(71, 240, 242, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(71, 240, 242, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(71, 240, 242, 0);
+    }
+}
+
+
+/* ....................................
+5. Border Blue
+.......................................*/
+
+.border-blue,
+.input-search,
+.bg-ty-1,
+.each-service,
+.btn-blue-border,
+.btn.btn-border-bl,
+.dashed-play-btn:before,
+.each-blog-standared:hover,
+.tags-widget .tag-link:hover,
+.tags-small a:hover,
+.blog-social li a:hover,
+.post-comment .input-white:focus,
+.contact-form .input-white:focus,
+.team-detail .check-list li span,
+.each-shop-list:hover .shop-img,
+.error-text:after {
+    border-color: #47f0f2;
+}
+
+
+/*border bottom*/
+
+.link-line,
+.cart-table thead tr th,
+.login-section .card {
+    border-bottom-color: #47f0f2;
+}
+
+
+/*border left*/
+
+.link-line {
+    border-left-color: #47f0f2;
+}
+
+
+/* ....................................
+6. Border black
+.......................................*/
+
+.border-black,
+.each-evnt-box .evnt-btns .rsvp,
+.callback-footer-2 .btn-black,
+.tags-widget .tag-link,
+.tags-small a,
+.blog-social li a,
+.post-comment .input-white,
+.nice-select.sort-nice,
+.tour-info li .icon,
+.album-share li a,
+.search-white,
+.callback-footer-2 .form-control {
+    border-color: #221b3c;
+}
